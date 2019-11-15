@@ -1,0 +1,70 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:lobster;
+}
+header{
+  background-image:url("https://scontent-yyz1-1.cdninstagram.com/vp/b63b6eaa2b8b29836942107d53a12a96/5DC079E2/t51.2885-15/sh0.08/e35/s750x750/47191956_2155588948088666_5797296469327891354_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&ig_cache_key=MTk0MzMxNzc1NzQyNDY4NjgzNg%3D%3D.2");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top:25px;
+}
+ul li{
+  display:inline-block;
+}
+ul li a{
+  color:#00f;
+  padding:5px 20px;
+  border:1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: #00f;
+  color:#00f;
+}
+ul li.active a{
+  background-color: #00f;
+  color:#00f;
+
+}
+.logo img{
+  float: left;
+  width:150px;
+  height:auto;
+}
+.main{
+  max-width: 1200px;
+  margin:auto;
+}
+.title{
+  position: absolute;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color:#000;
+  font-size: 70px;
+  font-family: impact;
+}
+.button{
+  position: absolute;
+  top: 85%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border:1px solid transparent;
+  padding:10px 30px;
+  color:#00f;
+  text-decoration: none;
+}
+  .btn:hover{
+    background-color: #00f;
+    color:#00f;
+  }
